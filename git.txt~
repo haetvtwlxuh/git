@@ -1,0 +1,18 @@
+git config --global user.name		//设置user.name
+git config --global user.email		//设置email
+git init							//创建版本库
+git add 'test'						//把文件添加到暂存区
+git commit -m 'testname'			//把暂存区的文件提到分支
+git status							//查看状态
+git diff							//查看改了什么
+git log								//查看历史记录
+git log --pretty=oneline			
+HEAD								//表示当前版本
+HEAD^								//上个版本
+git reset --hard HEAD^				//回到上个版本
+git reflog							//查看用过那些命令
+git checout -- file					//撤销修改
+git rm file							//删除文件
+git remote add origin https://github.com/haetvtwlxuh/wxpython.git		连接远程github
+git remote rm origin				//删除远程git
+git push -u origin master			//上传到github
